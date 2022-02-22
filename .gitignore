@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#flask
+api/.idea/
+api/public/
+
+venv
+__pycache__
