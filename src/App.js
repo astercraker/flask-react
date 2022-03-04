@@ -14,12 +14,12 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App bg-[#F5F5F5] h-full flex">
       <Sidebar />
-      <BeakerIcon className="h-5 w-5 text-blue-500" />
+      
       <MenuIcon className="h-10 w-10 text-blue-500 cursor-pointer" />
-      <p>The current time is {currentTime}.</p>
-      <h1 className="text-3xl font-bold underline"> Hello world! </h1>
+      {/* <p>The current time is {currentTime}.</p> */}
+      <h1 className="text-3xl font-bold underline"> Root EM -> 16px</h1>
     </div>
   );
 }

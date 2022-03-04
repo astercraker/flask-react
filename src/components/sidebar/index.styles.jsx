@@ -10,14 +10,3 @@ ${
     `
 }
 `
-
-export const ImageContainer = styled.div`
-${
-    tw`
-    w-full
-    flex
-    h-screen
-    bg-red-500
-    `
-}
-`
